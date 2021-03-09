@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    width: 90%;
+    min-width: 280px;
+    max-width: 500px;
+    height: auto;
+    box-shadow: 0px 6px 9px 1px rgba(0,0,0,0.37);
+    border-radius:1rem;
+    background: rgb(245, 245, 245);
+    padding: 20px;
+    
+}
+
+.card-header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items:flex-start ;
+
+}
+
+.circle-image img{
+    
+    width: auto;
+    height: 45px;
+    padding: 0.5rem;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.info__title{
+
+    font-size: 4rem;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+    padding: 0 0.5rem 0 0 ;
+    line-height: 30px;
+    
+}
+.info__subtitle{
+    align-self: center;
+    padding: 1rem 0.5rem 1rem 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: darkgrey;
+}
+.container-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    
+}
+.planta{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.12);
+    
+}
+.precio{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 2rem;
+    margin-top: -6rem;
+    
+
+}
+.precio h3{
+    
+    display: flex;
+    font-size: 5rem;
+    background-color: rgb(255, 255, 255);
+    border: rgb(175, 175, 175) solid 1px;
+    padding: 0 2rem 0 3rem;
+    border-radius: 1rem;
+    color: rgb(31, 31, 31);
+    /* box-shadow: 0px 0px 15px 0.5px rgba(0,0,0,0.40); */
+}
+.precio p{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.p-bottom{
+    line-height: 2rem;
+    font-size: 1.4rem;
+    text-align:inherit;
+    margin: 1.5rem 0.5rem;
+    color: rgb(33, 43, 28);
+    
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0.5rem 0 0.5rem;
+}
+.links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #836f67;
+    font-size: 1.5rem;
+    font-family: Helvetica, sans-serif;
+    padding: 0.5rem;
+    justify-items: flex-end;
+
+}
+.button-1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.button-1 a{
+    display: flex;
+    align-items: center;
+    background-color:rgb(14, 163, 0);
+    border-radius: 1.2rem;
+    color: white;
+    text-justify: auto;
+}
+.button-1 img{ 
+    width: 30px;
+    height: 30px;
+    margin: auto 0.9rem;
+    margin-left: 1rem ;
+    
+}
+.button-2{
+    display: flex;
+    align-items:  center;
+}
+.button-2 span{
+    background-image: url(/assets/cuenta.svg);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin: 0 0.7rem 0 2rem;
+}
